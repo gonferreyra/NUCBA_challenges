@@ -1,0 +1,46 @@
+body{
+    background-color: #E4e4e4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.icon1{
+    margin-left: 280px;
+    padding: 10px;
+    color: gray;
+}
+.text{
+    color: #151a41;
+}
+.material-icons{
+    font-size: 48px;
+}
+#popup{
+    background-color: #ffffff;
+    margin: auto;
+    text-align: center;
+    margin-top: 65px;
+    width: 25%;
+    padding: 20px;
+    border-radius: 15px;
+}
+.button{
+    background-color: #ffffff;
+    color: #000000;
+    width: 40px;
+    height: 35px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+}
+.button2{
+    background-color: #ffffff;
+    color: #000000;
+    width: 40px;
+    height: 35px;
+}
+.siguiente{
+    width: 300px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
