@@ -1,0 +1,29 @@
+body{
+    background-color: lightgray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#conteiner{
+    background-color: #ffffff;
+    width: 28%;
+    margin: auto;
+}
+.iconx{
+    text-align: right;
+}
+.text1{
+    width: 75%;
+    margin: auto;
+    color: #151a41;
+    font-weight: bold;
+    font-size: 15px;
+}
+.buttons{
+    width: 75%;
+    margin: auto;
+}
+button{
+    width: 52px;
+    height: 45px;
+    border-radius: 5px;
+    border-width: 1px;
+}
