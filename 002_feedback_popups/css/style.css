@@ -5,10 +5,17 @@ body{
 #conteiner{
     background-color: #ffffff;
     width: 28%;
+    height: 450px;
     margin: auto;
+    border-radius: 15px;
 }
-.iconx{
-    text-align: right;
+.iconx img{
+    height: 35px;
+    width: 35px;
+    padding-left: 320px;
+    opacity: 0.6;
+    padding-top: 10px;
+    
 }
 .text1{
     width: 75%;
@@ -29,19 +36,35 @@ button{
     background-color: #ffffff;
     border-color: lightgray;
 }
+.button5{
+    background-color: #ff0099;
+    color: white;
+}
 .terms{
     width: 75%;
     margin: auto;
 }
-.container {
+.scale{
+    font-size: 12px;
+    margin: 10px 48px;
+}
+.left{
     display: block;
-    position: relative;
-    padding-left: 35px;
-    margin-bottom: 12px;
-    cursor: pointer;
-    font-size: 22px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-  }
+    float: left;
+}
+.right{
+    float: right;
+    text-align: right;
+}
+.checkbox{
+    clear: both;
+    width: 84%;
+    text-align: center;
+    margin-top: 50px;
+    justify-content: center;
+}
+.checkbox input{
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+}
