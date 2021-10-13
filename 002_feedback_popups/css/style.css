@@ -1,70 +1,103 @@
 body{
     background-color: lightgray;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
 }
-#conteiner{
+.popup{
+    width: 460px;
+    height: 491px;
     background-color: #ffffff;
-    width: 28%;
-    height: 450px;
-    margin: auto;
     border-radius: 15px;
 }
-.iconx img{
-    height: 35px;
-    width: 35px;
-    padding-left: 320px;
-    opacity: 0.6;
-    padding-top: 10px;
-    
-}
-.text1{
-    width: 75%;
-    margin: auto;
-    color: #151a41;
-    font-weight: bold;
-    font-size: 15px;
-}
-.buttons{
-    width: 75%;
-    margin: auto;
-}
-button{
-    width: 52px;
-    height: 45px;
-    border-radius: 5px;
-    border-width: 1px;
-    background-color: #ffffff;
-    border-color: lightgray;
-}
-.button5{
-    background-color: #ff0099;
-    color: white;
-}
-.terms{
-    width: 75%;
-    margin: auto;
-}
-.scale{
-    font-size: 12px;
-    margin: 10px 48px;
-}
-.left{
-    display: block;
-    float: left;
-}
-.right{
-    float: right;
+.icon-x{
+    opacity: 0.5;
     text-align: right;
 }
-.checkbox{
-    clear: both;
-    width: 84%;
-    text-align: center;
-    margin-top: 50px;
-    justify-content: center;
+.icon-x img{
+    width: 45px;
+    margin: 15px 15px 0px 15px;
 }
-.checkbox input{
-    width: 20px;
+.text-1{
+    width: 68%;
+    text-align: left;
+    margin: auto;
+    margin-top: -30px;
+}
+.buttons-1{
+    width: 85%;
+    text-align: center;
+    margin: auto;
+    
+}
+.buttons-1 button{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    background-color: #ffffff;
+    width: 59px;
+    height: 50px;
+    font-weight: bold;
+}
+.buttons-1 .color-button{
+    background-color: #ff0099;
+    color: #ffffff;
+}
+.conteiner-2{
+    display: flex;
+    width: 68%;
+    margin: auto;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+}
+.conteiner-2 div{
+    /* border: 1px solid black; */
+    width: 100px;
+    height: 50px;
+}
+.left{
+    font-size: 12px;
+}
+.right{
+    font-size: 12px;
+    text-align: right;
+}
+.terms{
+    /* border: 1px solid black; */
+    width: 68%;
+    margin: auto;
+    display: flex;
+    
+}
+.terms input{
+    width: 25px;
     height: 20px;
+    text-align: left;
+    margin: 3px 3px 3px -2px;
+}
+.terms label{
+    font-size: 15px;
+    font-weight: bold;
+}
+hr{
+    width: 68%;
+    color: lightgray;
+}
+.next-button{
+    width: 315px;
+    height: 70px;
+    margin: auto;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    display: flex;
     justify-content: center;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+.next-button img{
+    width: 20px;
+    height: 22px;
 }
